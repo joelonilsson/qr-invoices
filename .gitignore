@@ -1,0 +1,6 @@
+node_modules
+.idea
+
+token.json
+credentials.json
+.env

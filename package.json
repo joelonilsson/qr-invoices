@@ -1,0 +1,16 @@
+{
+  "name": "qr-invoices",
+  "version": "1.0.0",
+  "description": "Fetching invoices from Gmail, which are then parsed and converted to QR and sent in a new email for easier payment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joel Nilsson",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "googleapis": "^47.0.0",
+    "qr-image": "^3.2.0"
+  }
+}
